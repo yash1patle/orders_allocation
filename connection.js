@@ -2,7 +2,7 @@ const mysql = require('mysql');
 
 var connection = mysql.createConnection({
     port: 3306,
-    host: 'localhost',
+    host: '209.126.2.16',
     user: 'greatweb_orderAllocation',
     password: 'greatweb_order_allocation',
     database: 'greatweb_order_allocation',
